@@ -1,0 +1,18 @@
+2020-10-14 17:27:26,415 INFO 15840 [egg-schedule]: register schedule C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-14 17:27:26,415 INFO 15840 [egg-schedule]: register schedule C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-14 17:27:26,415 INFO 15840 [egg-schedule]: register schedule C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-14 17:27:26,830 INFO 14340 [Timer] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39753175ms at 2020-10-15 04:30:00.005
+2020-10-14 17:27:26,830 INFO 14340 [Timer] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23553170ms at 2020-10-15 00:00:00.000
+2020-10-14 17:27:26,831 INFO 14340 [Timer] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23554170ms at 2020-10-15 00:00:01.001
+2020-10-15 10:33:43,236 INFO 3264 [egg-schedule]: register schedule C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-15 10:33:43,236 INFO 3264 [egg-schedule]: register schedule C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-15 10:33:43,236 INFO 3264 [egg-schedule]: register schedule C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-15 10:33:43,567 INFO 14896 [Timer] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64576440ms at 2020-10-16 04:30:00.007
+2020-10-15 10:33:43,568 INFO 14896 [Timer] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 48376433ms at 2020-10-16 00:00:00.001
+2020-10-15 10:33:43,569 INFO 14896 [Timer] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 48377432ms at 2020-10-16 00:00:01.001
+2020-10-16 00:00:00,005 INFO 3264 [Job#1602777600002932952121919161] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-10-16 00:00:00,018 INFO 3264 [Job#1602777600002932952121919161] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 11ms
+2020-10-16 00:00:00,009 INFO 14896 [Timer] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399997ms at 2020-10-17 00:00:00.006
+2020-10-16 00:00:01,003 INFO 3264 [Job#1602777601001932962114365581] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-10-16 00:00:01,024 INFO 3264 [Job#1602777601001932962114365581] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 21ms
+2020-10-16 00:00:01,006 INFO 14896 [Timer] C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399998ms at 2020-10-17 00:00:01.004

@@ -1,0 +1,26 @@
+2020-10-12 14:56:54,878 ERROR 17164 [-/127.0.0.1/-/2ms GET /info] nodejs.TypeError: this.ctx.json is not a function
+    at HomeController.getInfo (C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\app\controller\home.js:8:18)
+    at Object.callFn (C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\node_modules\koa-compose\index.js:36:12
+
+pid: 17164
+hostname: DESKTOP-49LPRK6
+
+2020-10-12 15:16:57,507 ERROR 20424 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app\\public"
+name: "EPERMError"
+pid: 20424
+hostname: DESKTOP-49LPRK6
+

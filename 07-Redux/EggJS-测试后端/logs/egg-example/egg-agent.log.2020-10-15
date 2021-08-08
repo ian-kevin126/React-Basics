@@ -1,0 +1,21 @@
+2020-10-14 00:00:01,067 INFO 20424 [egg-logrotator] agent logger reload: got log-reload message
+2020-10-14 17:27:22,727 INFO 14340 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-14 17:27:22,747 INFO 14340 [egg:core] dump config after load, 14ms
+2020-10-14 17:27:22,899 INFO 14340 [egg-watcher] Start watching: ["C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\config","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\mocks","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\mocks_proxy","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app.js"]
+2020-10-14 17:27:22,899 INFO 14340 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app"
+2020-10-14 17:27:22,900 INFO 14340 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\config"
+2020-10-14 17:27:22,901 INFO 14340 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\mocks"
+2020-10-14 17:27:22,901 INFO 14340 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\mocks_proxy"
+2020-10-14 17:27:22,902 INFO 14340 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app.js"
+2020-10-14 17:27:22,902 INFO 14340 [egg-watcher:agent] watcher start success
+2020-10-14 17:27:22,969 INFO 14340 [egg:core] dump config after ready, 18ms
+2020-10-15 10:33:40,380 INFO 14896 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-15 10:33:40,393 INFO 14896 [egg:core] dump config after load, 8ms
+2020-10-15 10:33:40,512 INFO 14896 [egg-watcher] Start watching: ["C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\config","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\mocks","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\mocks_proxy","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app.js"]
+2020-10-15 10:33:40,512 INFO 14896 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app"
+2020-10-15 10:33:40,512 INFO 14896 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\config"
+2020-10-15 10:33:40,513 INFO 14896 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\mocks"
+2020-10-15 10:33:40,513 INFO 14896 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\mocks_proxy"
+2020-10-15 10:33:40,513 INFO 14896 [egg-watcher] Start watching: "C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\app.js"
+2020-10-15 10:33:40,514 INFO 14896 [egg-watcher:agent] watcher start success
+2020-10-15 10:33:40,543 INFO 14896 [egg:core] dump config after ready, 9ms

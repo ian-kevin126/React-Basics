@@ -1,0 +1,21 @@
+.box-enter{
+    /*进入动画执行之前绑定的类名*/
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background: skyblue;
+}
+.box-enter-active{
+    /*进入动画执行过程中绑定的类名*/
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    transition: all 3s;
+}
+.box-enter-done{
+    /*进入动画执行完毕之后绑定的类名*/
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    background: red;
+}

@@ -1,0 +1,59 @@
+import React from 'react';
+import { connect } from 'react-redux'
+import {addAction, subAction, getUserInfo} from '../store/action';
+/*
+1.什么是Redux-saga?
+redux-saga和redux-thunk一样,是一个Redux中获取存储异步数据的中间件
+redux-saga可以直接拦截dispatch派发的action, 从而实现在执行reducer之前执行一些其它操作
+
+2.如何使用Redux-saga?
+- 安装Redux-saga
+npm install redux-saga
+- 在创建store时应用redux-thunk中间件
+import { createStore, applyMiddleware } from 'redux'
+import createSagaMiddleware from 'redux-saga'
+const sagaMiddleware = createSagaMiddleware();
+const storeEnhancer =  applyMiddleware(thunkMiddleware);
+const store = createStore(reducer, storeEnhancer);
+sagaMiddleware.run();
+- 在生成器函数中获取网络数据
+- 在组件中派发action
+
+https://redux-saga-in-chinese.js.org/
+* */
+class About extends React.PureComponent{
+    componentDidMount() {
+        this.props.changeInfo();
+    }
+    render(){
+        return (
+            <div>
+                <p>{this.props.count}</p>
+                <button onClick={()=>{this.props.decrement()}}>递减</button>
+                <p>{this.props.info.name}</p>
+                <p>{this.props.info.age}</p>
+            </div>
+        )
+    }
+}
+// 在mapStateToProps方法中告诉React-Redux, 需要将store中保存的哪些数据映射到当前组件的props上
+const mapStateToProps = (state)=>{
+    return {
+        count: state.count,
+        info: state.info
+    }
+};
+// 在mapDispatchToProps方法中告诉React-Redux, 需要将哪些派发的任务映射到当前组件的props上
+const mapDispatchToProps = (dispatch) =>{
+    return {
+        decrement(){
+            dispatch(subAction(1));
+        },
+        changeInfo(){
+            // redux-thunk中间件作用:
+            // 可以让dispatch方法可以接收一个函数, 可以让我们在通过dispatch派发任务的时候去执行我们传入的方法
+            dispatch(getUserInfo());
+        }
+    }
+};
+export default connect(mapStateToProps, mapDispatchToProps)(About);

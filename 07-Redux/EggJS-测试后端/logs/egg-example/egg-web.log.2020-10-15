@@ -1,0 +1,32 @@
+2020-10-14 00:00:01,067 INFO 18744 [egg-logrotator] app logger reload: got log-reload message
+2020-10-14 17:27:26,347 INFO 15840 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-14 17:27:26,416 INFO 15840 [egg-multipart] stream mode enable
+2020-10-14 17:27:26,730 INFO 15840 [egg-static] starting static serve /public/ -> C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\app\public
+2020-10-14 17:27:26,737 INFO 15840 [egg-security] use csrf middleware
+2020-10-14 17:27:26,742 INFO 15840 [egg-security] use methodnoallow middleware
+2020-10-14 17:27:26,744 INFO 15840 [egg-security] use noopen middleware
+2020-10-14 17:27:26,747 INFO 15840 [egg-security] use nosniff middleware
+2020-10-14 17:27:26,748 INFO 15840 [egg-security] use xssProtection middleware
+2020-10-14 17:27:26,750 INFO 15840 [egg-security] use xframe middleware
+2020-10-14 17:27:26,754 INFO 15840 [egg-security] use dta middleware
+2020-10-14 17:27:26,754 INFO 15840 [egg-security] compose 7 middlewares into one security middleware
+2020-10-14 17:27:26,778 INFO 15840 [egg:core] dump config after load, 14ms
+2020-10-14 17:27:26,800 INFO 15840 [egg-watcher:application] watcher start success
+2020-10-14 17:27:26,820 INFO 15840 [egg:core] dump config after ready, 18ms
+2020-10-15 10:33:43,178 INFO 3264 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-15 10:33:43,237 INFO 3264 [egg-multipart] stream mode enable
+2020-10-15 10:33:43,463 INFO 3264 [egg-static] starting static serve /public/ -> C:\Users\Jonathan_Lee\Desktop\React17\07-Redux\EggJS-测试后端\app\public
+2020-10-15 10:33:43,468 INFO 3264 [egg-security] use csrf middleware
+2020-10-15 10:33:43,471 INFO 3264 [egg-security] use methodnoallow middleware
+2020-10-15 10:33:43,472 INFO 3264 [egg-security] use noopen middleware
+2020-10-15 10:33:43,479 INFO 3264 [egg-security] use nosniff middleware
+2020-10-15 10:33:43,481 INFO 3264 [egg-security] use xssProtection middleware
+2020-10-15 10:33:43,484 INFO 3264 [egg-security] use xframe middleware
+2020-10-15 10:33:43,486 INFO 3264 [egg-security] use dta middleware
+2020-10-15 10:33:43,487 INFO 3264 [egg-security] compose 7 middlewares into one security middleware
+2020-10-15 10:33:43,512 INFO 3264 [egg:core] dump config after load, 17ms
+2020-10-15 10:33:43,538 INFO 3264 [egg-watcher:application] watcher start success
+2020-10-15 10:33:43,554 INFO 3264 [egg:core] dump config after ready, 14ms
+2020-10-16 00:00:00,018 INFO 3264 [egg-logrotator] clean all log before 31 days
+2020-10-16 00:00:01,024 INFO 3264 [egg-logrotator] broadcast log-reload
+2020-10-16 00:00:01,024 INFO 3264 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\common-error.log -> C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\common-error.log.2020-10-15","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\egg-example-web.log -> C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\egg-example-web.log.2020-10-15","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\egg-web.log -> C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\egg-web.log.2020-10-15","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\egg-schedule.log -> C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\egg-schedule.log.2020-10-15","C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\egg-agent.log -> C:\\Users\\Jonathan_Lee\\Desktop\\React17\\07-Redux\\EggJS-测试后端\\logs\\egg-example\\egg-agent.log.2020-10-15"]
